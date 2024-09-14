@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio</title>
+</head>
+<body>
+
+      <!-- Aplicar los estilos de Div CAJITA DESDE JAVAsCRIPT 
+1. tEXTO DE COLOR VERTE Y LA FUENTE VERDANA
+2. APLICAR AL TEXT "perspiciatis tempore"
+cursiva y negrita
+3. APLICAR AL TEXTO "Rem sint soluta" subrayado y resaltado -->
+
+    <div id="CAJITA">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat 
+    inventore beatae dolor <span id="text01"> perspiciatis tempore </span>quia totam. Molestias, 
+    veritatis? Dicta assumenda 
+    vitae consectetur <span id="text02">Rem sint soluta</span> tenetur quam quos in quas, unde commodi!
+</div>
+<script>
+    let elemento = document.getElementById("CAJITA");
+    elemento.style.color = "green";
+    elemento.style.fontFamily = "verdana";
+    let text01=document.getElementById("text01");
+    text01.style.fontStyle=("italic");
+    text01.style.fontWeight =("bold");
+    let text02=document.getElementById("text02");
+    text02.style.textDecoration=("underline");
+    text02.style.backgroundColor=("yellow");
+
+</script>
+
+
+
+</body>
+</html>

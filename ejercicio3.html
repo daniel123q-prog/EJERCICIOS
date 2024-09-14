@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Seleccion por etiqueta</title>
+</head>
+<body>
+    <p> Párrafos 1 </p>
+    <p> Párrafos 2 </p>
+    <script>
+        let elemento=document.getElementsByTagName("p");
+        for(let i=0; i<elemento.length; i++){
+            elemento[i].style.fontSize="18px";
+            elemento[i].style.color="orange";
+            elemento[i].style.fontFamily="Helvetica";
+
+        }
+    </script>
+</body>
+</html>
